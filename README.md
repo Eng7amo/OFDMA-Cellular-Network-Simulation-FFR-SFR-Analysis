@@ -23,12 +23,12 @@ source ofdma_env/bin/activate  # On Windows: ofdma_env\Scripts\activate
 ### 3️⃣ Install dependencies
 pip install -r requirements.txt
 
-### 🛠 Usage
+# 🛠 Usage
 Run the Jupyter Notebook
 jupyter notebook
 Open Mobile_Comm_Final_Presentation.ipynb and execute the cells to visualize sub-band allocation and frequency reuse performance.
 
-### 🔍 How It Works
+# 🔍 How It Works
 Strict FFR Calculation:
 
 Computes the number of sub-bands allocated for interior and exterior zones.
@@ -47,16 +47,16 @@ Plots the percentage of total sub-bands allocated for different reuse schemes.
 
 Compares Strict FFR, SFR, and Universal Reuse (N=1).
 
-### 📊 Analysis
+# 📊 Analysis
 Evaluates how cell radius and power allocation impact network efficiency.
 
 Analyzes spectral efficiency under different reuse schemes.
 
 Compares strict and flexible reuse strategies for OFDMA-based networks.
 
-### 🤝 Contribution
+# 🤝 Contribution
 Feel free to contribute by creating pull requests or reporting issues in the Issues section.
 .
 
-### 📜 License
+# 📜 License
 This project is licensed under the MIT License.
